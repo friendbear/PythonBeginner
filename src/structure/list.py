@@ -55,3 +55,28 @@ s = 'My name is Mike.'
 to_split = s.split(' ')
 x = ' ######'.join(to_split)
 print(x)
+
+## List Copy
+i = [1, 2, 3, 4, 5]
+j = i  # reference
+j[0] = 100
+print('i = ', i)
+print('j = ', j)
+
+x = [1, 2, 3, 4, 5]
+y = x.copy()
+y[0] = 100
+print('x = ', x)
+print('y = ', y)
+
+
+X = [ 'a', 'b']
+
+###
+seat = []
+min = 0
+max = 5
+min <= len(seat) < max
+seat.append('p')
+seat.pop(0)
+print(seat)
