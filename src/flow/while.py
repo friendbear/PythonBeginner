@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 
 count = 0 
-
 while count < 5:
     print(count)
     count += 1
 
+# type break
 count = 0
 while True:
     if count >= 5:
