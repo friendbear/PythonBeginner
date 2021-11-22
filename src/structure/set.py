@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 a = {1, 2, 2, 3, 4, 4, 4, 5, 6}

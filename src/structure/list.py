@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 l = [1,  0, 4, 50, 2, 1, 2]
