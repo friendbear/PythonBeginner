@@ -1,10 +1,10 @@
 from lesson_package.talk import human
 from ..tools import utils
 def sing():
-    return 'sing'
+    return 'abfeaifeoajfaofaog'
 
 def cry():
-    return 'wow!'
+    return 'afeafneoaifeoanofao'
 
 print(human.sing())
 print(human.cry())
