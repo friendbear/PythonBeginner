@@ -17,6 +17,6 @@ d = defaultdict(int)
 
 for c in s:
     d[c] += 1
-print(d) # defaultdict(<class 'int'>, {'f': 6, 'a': 8, 'j': 2, 'e': 3, 'o': 5, 'i': 3, 'n': 1, 'b': 3})
+print(d)  # defaultdict(<class 'int'>, {'f': 6, 'a': 8, 'j': 2, 'e': 3, 'o': 5, 'i': 3, 'n': 1, 'b': 3})
 
 print(d['a'])

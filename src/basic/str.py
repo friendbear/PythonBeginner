@@ -23,7 +23,7 @@ s = ('Py                   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 
 print(s)
 
-## 文字列のインデックスとスライス
+# 文字列のインデックスとスライス
 word = 'python'
 print(word[0])
 print(word[1])
@@ -43,7 +43,7 @@ print(word[:])
 
 print(len(word))
 
-## 文字のメソッド
+# 文字のメソッド
 s2 = 'My name is Mike. Hi Mike.'
 print(s2)
 is_start = s2.startswith("My")
@@ -61,7 +61,7 @@ print(s2.upper())
 print(s2.lower())
 print(s2.replace('Mike', 'Nancy'))
 
-## 文字の代入
+# 文字の代入
 print('a is {}'.format('test'))
 print('a is {} {} {}'.format(1, 2, 3))
 print('a is {2} {1} {0}'.format(1, 2, 3))
@@ -71,7 +71,7 @@ print('My name is {0} {1}'.format('Jun', 'Sakai'))
 print('My name is {name} {family}. Watashi ha {family} {name}'.format(name='Jun', family='Sakai'))
 
 
-## f-strings
+# f-strings
 a = 'a'
 print(f'a is {a}')
 

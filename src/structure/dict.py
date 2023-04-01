@@ -9,9 +9,9 @@ d['z'] = 200
 d[1] = 100000
 
 d2 = dict(a=10, b=20)
-print(d2)
+print("d2= {}".format(d2))
 
-## method
+# method
 d.keys()
 d.values()
 

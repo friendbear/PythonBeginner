@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import math
 
 17 / 3
 
@@ -11,7 +12,6 @@
 pie = 3.1415
 round(pie)
 
-import math
 
 result = math.sqrt(25)
 print(result)
